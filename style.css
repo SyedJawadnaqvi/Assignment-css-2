@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    
+}
+.logo{
+font-size: 20px;
+color: white;
+font-weight: bolder;
+}
+ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+ ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+a,button{
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+button{
+    background-color: rgb(22, 22, 22);
+    border: 1px solid rgb(46, 46, 46);
+    border-radius: 5px;
+    padding: 9px 25px;
+    font: size 8px; ;
+
+
+}
